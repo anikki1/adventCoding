@@ -1,5 +1,6 @@
 with open("dayThreeData.txt", "r") as bagData:
-	lines = bagData.readlines()
+	lines = [line for line in bagData][:3]
+    #lines = bagData.readlines()
 
 
 aValue = ord('a')
@@ -8,6 +9,9 @@ totalValue = 0
 for x in lines:
     priority = []
     x = x.replace('\n', '')
+
+
+
     halfLength = int((len(x)/2))
     first = x[0:halfLength]
     second = x[halfLength:]
