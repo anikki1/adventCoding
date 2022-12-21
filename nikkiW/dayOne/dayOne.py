@@ -1,4 +1,4 @@
-with open("data.txt", "r") as elfData:
+with open("dayOneData.txt", "r") as elfData:
 	lines = elfData.readlines()
 elfFood = []
 for x in lines: 
