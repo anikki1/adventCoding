@@ -1,6 +1,6 @@
 with open("dayThreeData.txt", "r") as bagData:
-	lines = [line for line in bagData][:3]
-    #lines = bagData.readlines()
+	#lines = [line for line in bagData][:3]
+    lines = bagData.readlines()
 
 
 aValue = ord('a')
